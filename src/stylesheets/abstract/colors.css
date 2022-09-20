@@ -1,0 +1,71 @@
+:root {
+  --default-text-color: #373435;
+  --defalult-bg-color: #ffffff;
+  --default-color: #001675;
+  --primary-color: #4265ff;
+  --secondary-color: #181818;
+  --danger-color: #f44336;
+  --success-color: #4caf50;
+  --warning-color: #e6b000;
+
+  --text-hover: hsl(340, 3%, 31%);
+  --default-hover: #000e4d;
+  --primary-hover: #0f3bff;
+  --secondary-hover: hsl(0, 0%, 19%);
+  --danger-hover: #c41508;
+  --success-hover: #357937;
+  --warning-hover: #c29500;
+  --active-hover: #0047b3;
+
+  --off-white: #f6f9fc;
+  --active-color: #0065ff;
+
+  --dark-color: #221d23;
+  --light-color: #f4f4ed;
+
+  --shadow-color: #00000059;
+}
+/* Text Colors' Classes */
+.text-primary {
+  color: var(--primary-color);
+}
+.text-secondary {
+  color: var(--secondary-color);
+}
+.text-default {
+  color: var(--default-color);
+}
+.text-danger {
+  color: var(--danger-color);
+}
+.text-success {
+  color: var(--success-color);
+}
+.text-warning {
+  color: var(--warning-color);
+}
+.text-offwhite {
+  color: var(--off-white);
+}
+.text-dark {
+  color: var(--default-text-color);
+}
+/* Background Colors' Classes */
+.bg-primary {
+  background-color: var(--primary-color);
+}
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+.bg-default {
+  background-color: var(--default-color);
+}
+.bg-danger {
+  background-color: var(--danger-color);
+}
+.bg-success {
+  background-color: var(--success-color);
+}
+.bg-warning {
+  background-color: var(--warning-color);
+}
