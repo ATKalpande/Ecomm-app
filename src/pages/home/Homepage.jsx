@@ -1,10 +1,13 @@
 import React from "react";
-import { Navbar } from "../../components";
-import styles from "./homepage.module.css";
+import { Navbar,Slider,Mid,Spk} from "../../components";
+
 export const Homepage = () => {
   return (
     <div>
       <Navbar />
+      <Slider />
+      <Mid />
+     <Spk />
     </div>
   );
 };
