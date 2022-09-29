@@ -3,12 +3,7 @@ import ddata from "./ddata";
 
 import Carousel from "react-elastic-carousel";
 import styles from "./spk.module.css";
-// { width: 1, itemsToShow: 1 },
-// { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
-// { width: 850, itemsToShow: 3 },
-// { width: 1150, itemsToShow: 4, itemsToScroll: 2 },
-// { width: 1450, itemsToShow: 5 },
-// { width: 1750, itemsToShow: 6 },
+
 const breakPoints = 
 [
   {
@@ -66,15 +61,19 @@ const breakPoints =
 export const Spk = () => {
   return (
     <>
-    <Carousel  itemPadding={[5, 10]} 
+
+    <h1 id={styles.h} >Shop For</h1>
+    <Carousel className={styles.container}  itemPadding={[5, 10]} 
      outerSpacing={10} enableAutoPlay autoPlaySpeed={1500}    breakPoints={breakPoints}>
       {ddata.map((d)=>{
         return(
           <div  className={styles.a}>
+            
             <article key={d.id}>
+              
             <a href="#">
-                  <img  src={d.image} alt={d.description} />
-                  <h1>{d.text}</h1>
+                  <img width={172} height={172} src={d.image} alt={d.description} />
+                  <h3>{d.text}</h3>
                 </a>
                 
             </article>

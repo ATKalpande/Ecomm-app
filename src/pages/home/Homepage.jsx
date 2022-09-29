@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar,Slider,Mid,Spk} from "../../components";
+import { Navbar,Slider,Mid,Spk,Midb,Collections} from "../../components";
 
 export const Homepage = () => {
   return (
@@ -8,6 +8,9 @@ export const Homepage = () => {
       <Slider />
       <Mid />
      <Spk />
+     <Midb/>
+     <Collections/>
+     
     </div>
   );
 };
