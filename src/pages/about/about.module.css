@@ -1,0 +1,16 @@
+body{
+    min-height: 100vh;
+    display: flex;  
+    flex-direction: column;
+}
+.footer{
+                                   
+    margin-bottom: 0px;
+    margin-top: 200px;
+}
+.cont{
+    margin-top: 20px;
+    margin-left: 30px;
+
+    padding: 50px;
+}
